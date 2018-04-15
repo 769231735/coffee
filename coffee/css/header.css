@@ -1,0 +1,56 @@
+.navbar-brand{
+    background-image: url("../img/coffee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background: #191919;
+    margin-bottom: 0;
+    border: 1px solid;
+    border-radius: 0;
+
+}
+.navbar-nav > li > a{
+    margin:0 25px 0 25px;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 20px;
+    /* color: white; */
+}
+.navbar-default .navbar-nav > li > a{
+    color:white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#c24d53;
+}
+.navbar-nav > li:first{
+    padding-left: 50px;
+
+}
+.navbar-nav > li > a:hover{
+    border-bottom: 2px solid #c24d53;
+
+}
+.navbar > .container-fluid .navbar-brand{
+    color: transparent;
+    margin: 8px 0;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.navbar-default .navbar-collapse{
+    padding: 15px 0 15px 0;
+}
+.navbar-toggle{
+    margin-top: 14px;
+}
+#header_top{
+    background: #333333;
+    color:#fefefe;
+}
+#header_top a{
+    color:#fefefe;
+}
+#hotLine{
+    animation: tada 2s infinite;
+}
+/*  *

@@ -1,0 +1,7 @@
+#carousel-example-generic .item>img{
+    width: 100%;
+    height: 500px;
+}
+#next , #previous{
+    line-height: 500px;
+}

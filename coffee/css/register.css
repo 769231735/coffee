@@ -1,0 +1,54 @@
+#forget::before{
+    content: "|";
+    color: white;
+
+}
+#forget a{
+    margin-left: 12px;
+    color:white;
+    font-size: 20px;
+}
+#goRegister a{
+    margin-left: 12px;
+    color:#da2425;
+    font-size: 15px;
+}
+#inputCount{
+    /* width: 300px; */
+    height: 40px;
+    border: 2px solid black;
+
+}
+#inputPassword, #inputPassword2{
+    /* width: 300px; */
+    height: 40px;
+    border: 2px solid black;
+}
+#checkCode{
+    /* width: 300px; */
+    height: 40px;
+    border: 2px solid black;
+}
+#register{
+    background-image:url("../img/registerBg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+
+}
+#register .container{
+    margin-top:200px;
+    /* width: 600px; */
+}
+#register h2{
+    margin-right:44px;
+}
+input{
+    outline: none;
+}
